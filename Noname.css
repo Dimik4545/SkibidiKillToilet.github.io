@@ -28,19 +28,51 @@ body {
 }
 
 h1{
-  font-family: "Madimi One", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a{
-  font-family: "Madimi One", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h2{
-  font-family: "Madimi One", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+h3{
+  font-family: "Montserrat", sans-serif;
 }
 p{
-  font-family: "Madimi One", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-img {
-  border-radius: 15%;
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
+.topbar {
+  position: fixed;
+  bottom: 1;
+  background: rgba(0, 0, 0, 0.9);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+/* Add some content at the bottom of the video/page */
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 25px;
+}
+/* Add some content at the bottom of the video/page */
+
+
+/* Style the button used to pause/play the video */
+
 
